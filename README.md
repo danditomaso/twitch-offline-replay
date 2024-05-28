@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Welcome to twitch-offline-replay 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.2-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/danditomaso" target="_blank">
+    <img alt="Twitter: danditomaso" src="https://img.shields.io/twitter/follow/danditomaso.svg?style=social" />
+  </a>
+</p>
 
-## Getting Started
+> Twitch Offline Replay (TOR) is a project designed to simplify the process of recording streams from Twitch for users who wish to follow specific streamers closely. It offers a seamless way to favoriate streamers of interest, automatically record their streams when they go live, and store the recordings locally for later viewing.
 
-First, run the development server:
+## Features
+ - Streamers Selection: Users can select their favorite streamers to follow.
+ - Auto Recording: Once a selected streamer goes live, the system automatically starts recording the stream.
+ - Customizable Preferences: Users can set quality preferences for each streamer, including options for capturing audio only (smaller files).
+ - Skip Streamers: In future updates, users will have the option to skip recording streams from specific streamers if desired.
+ - Offline Availability: All recordings are available for playback once the streamer goes offline.
+ - Storage Options: Currently, recordings are stored locally, with future plans to offer storage solutions such as Amazon S3 or other blob storage services.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies using bun install.
+3. Configure your Twitch API credentials.
+4. Run the application using bun start (this will be improved in the future).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1.  Launch the application.
+2.  Sign in with your Twitch account.
+3.  Select the streamers you wish to follow.
+4.  Set your recording quality preferences.
+5.  Enjoy auto-recorded streams from your favorite streamers!
 
-## Learn More
+## Future Plans
 
-To learn more about Next.js, take a look at the following resources:
+- Implement the ability for users to skip certain streamers.
+- Integrate file storage with something like Amazon S3 or another Blob based storage solution.
+- Enhance user interface for better user experience.
+- Implement additional features based on user feedback and demand.
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👤 **Dan Ditomaso**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* Website: https://danditomaso.com
+* Twitter: [@danditomaso](https://twitter.com/danditomaso)
+* Github: [@danditomaso](https://github.com/danditomaso)
 
-## Deploy on Vercel
+## Show your support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Give a ⭐️ if this project helped you!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Contributing
+
+Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License(https://opensource.org/license/mit).
+
+
+***
+_This README was (partially) generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
