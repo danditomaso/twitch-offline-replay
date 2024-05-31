@@ -38,3 +38,10 @@ next-env.d.ts
 # environment vars
 .env
 .env.*
+
+# sst
+.sst
+
+
+# open-next
+.open-next
